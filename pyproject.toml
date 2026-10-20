@@ -17,8 +17,11 @@ dependencies = [
     "numpy>=2.5.4",
     "ollama>=0.6.3",
     "pygithub>=2.10.0",
+    "python-dotenv>=1.2.4",
     "pyyaml>=6.0.3",
     "requests>=2.34.2",
+    "rich>=13.9.4",
+    "safetensors>=0.8.0",
     "scipy>=1.18.1",
     "sympy>=1.14.0",
     "wikipedia>=1.4.0",
@@ -44,4 +47,5 @@ dev = [
     "pandas>=3.0.6",
     "paramiko>=5.1.0",
     "podman>=5.8.0",
+    "transformers[torch]>=5.20.2",
 ]
