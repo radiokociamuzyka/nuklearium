@@ -1,0 +1,32 @@
+[project]
+name = "nuklearium"
+version = "0.1.0"
+description = "projekt Nuklearium to próba opracowania zestawu oprogramowania wsparcia dla branży energetyki atomowej w Polsce z wykorzystaniem nowoczesnych technologii. Zestaw interdyscyplinarnych narzędzi i pakietów wiedzy z dziedzin powiązanych mogących mieć wpływ na postęp projektów: historii, fizyki, prawa, budownictwa, logistyki, ekonomii i sociologii"
+readme = "README.md"
+authors = [
+    { name = "Sett Sarverott", email = "sett@sarverott.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "argostranslate>=1.11.0",
+    "astropy>=8.0.2",
+    "beautifulsoup4>=4.15.0",
+    "gitpython>=3.2.1",
+    "litellm[proxy]>=1.106.0",
+    "marimo>=0.25.2",
+    "numpy>=2.5.4",
+    "ollama>=0.6.3",
+    "pygithub>=2.10.0",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+    "sympy>=1.14.0",
+    "wikipedia>=1.4.0",
+]
+
+[project.scripts]
+nuklearium = "nuklearium:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
