@@ -36,16 +36,26 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "a2a-sdk>=1.2.3",
     "commitizen>=4.19.2",
+    "fastapi>=0.156.0",
     "go-task-bin>=3.54.0",
     "gradio>=6.30.0",
     "gradio-client>=2.7.2",
     "huggingface-hub>=1.33.0",
+    "lark>=1.3.1",
     "lefthook>=2.2.2",
     "matplotlib>=3.11.2",
+    "mcp[cli]>=2.3.0",
+    "myst-parser>=5.1.0",
     "notebook>=7.6.3",
     "pandas>=3.0.6",
     "paramiko>=5.1.0",
     "podman>=5.8.0",
+    "pydantic>=2.14.1",
+    "sphinx>=9.1.1",
+    "sphinx-intl>=2.4.0",
+    "sphinxcontrib-mermaid>=2.1.1",
     "transformers[torch]>=5.20.2",
+    "yamllint>=1.38.0",
 ]
